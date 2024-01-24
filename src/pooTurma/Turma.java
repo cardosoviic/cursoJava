@@ -9,10 +9,14 @@ public class Turma {
 	//Construtor 
 	public Turma() {
 		System.out.println("_________________");
+		
+	}
+	
+	public void beberAguaAluno() {
+		beberAgua();
 	}
 	
 	//Métodos 
-	
 	void ligarPc() {
 		System.out.println("Computador ligado");
 	}
@@ -23,6 +27,10 @@ public class Turma {
 	
 	void desligarPc() {
 		System.out.println("Computador desligando");
+	}
+	
+	private void beberAgua( ) {
+		System.out.println("Ir ao bebedouro para beber água");
 	}
 	
 }
